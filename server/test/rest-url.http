@@ -1,0 +1,23 @@
+GET http://localhost:3001/tracks
+Accept:application/json
+
+###
+
+
+POST http://localhost:3001/tracks 
+Content-Type: application/json
+
+{
+    "playlist_id":1,
+    "title":"Jaskaran",
+	"uri":"/Nini-Rosso-Il-Silenzio-Ho-Bisogno-Di-Te/release/6827419",
+	"master_id":13814
+}
+
+###
+
+DELETE http://localhost:3001/tracks/38
+Content-Type: :application/json
+
+
+
